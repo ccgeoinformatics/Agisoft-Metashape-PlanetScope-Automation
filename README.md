@@ -28,7 +28,7 @@ This script automates the processing of PlanetScope image pairs in Agisoft Metas
 
 ## Important Notes
 1. **Running the Script Outside Metashape**: The script can run independently of Metashape, but issues may arise during report export. Running within Metashape is recommended.
-2. **Coordinate System Selection**: During initial processing, the script prompts for manual coordinate system selection. For some applications, a geoid-based vertical coordinate system (VCS), such as EGM2008, maybe necessary. For instructions on custom CRS setup, refer to [this guide](https://agisoft.freshdesk.com/support/solutions/articles/31000148332-how-to-use-height-above-geoid-for-the-coordinate-system). To skip custom VCS, set `new_crs = Metashape.CoordinateSystem("EPSG::32651")`.
+2. **Coordinate System Selection**: During initial processing, the script prompts for manual coordinate system selection. For some applications, a geoid-based vertical coordinate system (VCS), such as EGM2008, maybe necessary. For instructions on custom CRS setup, refer to [this guide](https://agisoft.freshdesk.com/support/solutions/articles/31000148332-how-to-use-height-above-geoid-for-the-coordinate-system). To skip custom VCS, set  `new_crs = Metashape.CoordinateSystem("EPSG::32651")` (change to your desired EPSG number).
 3. **Error Logging**: Check `error_log.txt` after each run for any errors.
 
 ## Author
