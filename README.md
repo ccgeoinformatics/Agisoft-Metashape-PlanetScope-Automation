@@ -5,7 +5,7 @@ This script automates the processing of PlanetScope image pairs in Agisoft Metas
 
 ## Requirements and Compatibility
 - **Python version**: 3.x
-- **Agisoft Metashape version**: 2.1 or higher
+- **Agisoft Metashape version**: 2.0 or higher
 - **Metashape Python Module**: Must be installed. Download from [Agisoft](https://www.agisoft.com/downloads/installer/). For installation instructions, refer to the [installation guide](https://agisoft.freshdesk.com/support/solutions/articles/31000148930-how-to-install-metashape-stand-alone-python-module).
 
 ## Preparations
