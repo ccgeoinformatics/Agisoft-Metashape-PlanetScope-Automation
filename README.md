@@ -1,7 +1,7 @@
 # Automated Agisoft Metashape Processing of PlanetScope Image Pairs
 
 ## Description
-This script automates the processing of PlanetScope image pairs in Agisoft Metashape. It loads image pairs from a CSV file, adds them to a Metashape document, and performs various processing steps, including camera alignment, depth map generation, and DSM (Digital Surface Model) export. By default, the script uses the "NIR" band as the primary channel, but this can be changed as needed.
+This script automates the processing of PlanetScope image pairs in Agisoft Metashape. It loads image pairs whose file names are listed in a CSV file, adds them to a Metashape document, and performs various processing steps, including camera alignment, depth map generation, and DSM (Digital Surface Model) export. By default, the script uses the "NIR" band as the primary channel, but this can be changed as needed.
 
 ## Requirements and Compatibility
 - **Python version**: 3.x
